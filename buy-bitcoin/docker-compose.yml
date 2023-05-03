@@ -13,6 +13,6 @@ services:
     environment:
       PORT: 5555
       TOR_PROXY_IP: "${TOR_PROXY_IP}"
+      TOR_PROXY_PORT: "${TOR_PROXY_PORT}"
       APP_HIDDEN_SERVICE: "${APP_HIDDEN_SERVICE}"
-      #TOR_PROXY_PORT: "${TOR_PROXY_PORT}"
 
