@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: buy-bitcoin
+category: Finance
+name: Buy Bitcoin
+version: "0.0.1"
+tagline: Bitcoin, bitbankcc
+description: >-
+  Buy Bitcoin on bitbankcc exchange.
+
+developer: pingu342
+website: https://github.com/pingu342/python_ordercrypto
+dependencies:
+repo: https://github.com/pingu342/python_ordercrypto
+support: https://github.com/pingu342/python_ordercrypto
+port: 5555
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel/pull/334

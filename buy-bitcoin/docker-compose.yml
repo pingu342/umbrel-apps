@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: buy-bitcoin_web_1
+      APP_PORT: 5555
+
+  web:
+    image: ghcr.io/pingu342/python_ordercrypto:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    environment:
+      PORT: 5555
+      TOR_PROXY_IP: "${TOR_PROXY_IP}"
+      TOR_PROXY_PORT: "${TOR_PROXY_PORT}"
+
